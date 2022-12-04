@@ -1,7 +1,8 @@
 -module(exe1).
--export([n_primos/1]).
+-export([n_divide/1]).
 
-n_primos(N) -> % 5
+%Lista todos os divisores de N
+n_divide(N) -> % 5
     N1 = N, 
     ver_div([N1, N]). %Diz si é divisivel ou não
 
